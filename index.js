@@ -2,6 +2,7 @@ window.addEventListener('load', ()=>{
   const sounds=document.querySelectorAll(".sound");
   const pads=document.querySelectorAll(".pads div");
 
+  alert("test")
   if('serviceWorker' in navigator){
     try {
       navigator.serviceWorker.register('serviceWorker.js');
